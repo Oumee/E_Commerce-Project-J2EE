@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+ 
+
+ #logindiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  #comptediv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  #marhaba{
+         color : orange;
+          display: flex; /* Utiliser flexbox pour le conteneur */
+        flex-wrap: wrap; /* Permettre le retour à la ligne des éléments */
+        justify-content: center; /* Centrer horizontalement les éléments */
+        align-items: center; /* Centrer verticalement les éléments */
+    }
+     .image {
+    flex-wrap: wrap; /* Permettre le retour à la ligne des éléments */
+        justify-content: center; /* Centrer horizontalement les éléments */
+        align-items: center; /* Centrer verticalement les éléments */
+        width: 70px; /* Largeur fixe pour les boutons */
+        height: 70px; /* Hauteur fixe pour les boutons */
+        
+    }
+     .image-container {
+  position: absolute;
+  top: 0; /* Positionner l'élément en haut */
+  right: 0; /* Positionner l'élément le plus à droite */
+}  
